@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Insert dtitle here</title>
 </head>
 <body>
 <script type="text/javascript" src="js/datajs-1.1.2.js" ></script>
@@ -14,7 +14,7 @@
 breeze.config.initializeAdapterInstance('dataService', 'webApiOData', true);
 
 // Datacontext
-var serviceName = "http://192.168.56.101:8980/HotelOData.svc/";
+var serviceName = "http://localhost:8980/HotelOData.svc/";
 var manager = new breeze.EntityManager(serviceName);
 
 
